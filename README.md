@@ -6,8 +6,8 @@
 
 
 
-[![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge\&logo=oracle\&logoColor=white)]()
-[![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge\&logo=apachetomcat\&logoColor=white)]()
+
+
 
 
 ---
@@ -60,13 +60,13 @@
 | 언어     | [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)]() [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge\&logo=java\&logoColor=white)]()                  |
 | 프론트엔드  | [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)]() [![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)]() [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)]()         |
 | 백엔드    | JSP/Servlet, MyBatis, Flask   |
-| 서버     | Apache Tomcat                 |
-| 데이터베이스 | Oracle                        |
+| 서버     | [![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge\&logo=apachetomcat\&logoColor=white)]()                |
+| 데이터베이스 | [![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge\&logo=oracle\&logoColor=white)]()                        |
 | AI     | Google ViT, GPT-4o            |
 | 라이브러리  | bcrypt                        |
 | API    | Kakao 로그인, Naver 로그인, 아임포트 결제 |
 | 개발도구   | Eclipse, VSCode               |
-| 협업     | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/2025-SMHRD-IS-CLOUD-3/mongglemonggle), [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge\&logo=figma\&logoColor=white)]()             |
+| 협업     | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/2025-SMHRD-IS-CLOUD-3/mongglemonggle) [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge\&logo=figma\&logoColor=white)]()             |
 
 ---
 
@@ -153,5 +153,6 @@ PRODUCTS -< REVIEWS
 
 ```
 ```
+
 
 

@@ -56,17 +56,14 @@
 
 ## 6. 시스템 아키텍처
 
-```
-[사용자 입력] --> [웹 UI / React] --> [백엔드: JSP/Servlet, Flask]
-           --> [AI 분석: Google ViT, GPT-4o]
-           --> [DB: Oracle]
-           --> [결과 반환 / 장바구니 / 결제 API 연동]
-```
+<img width="550" height="562" alt="image" src="https://github.com/user-attachments/assets/3d17b95a-d934-4cfd-86f2-07f7430c8b06" />
+
 
 ---
 
 ## 7. 유스케이스
 <img width="1101" height="624" alt="image" src="https://github.com/user-attachments/assets/a9c994e7-fad1-4083-935b-e3eb71147db2" />
+<img width="1126" height="638" alt="image" src="https://github.com/user-attachments/assets/4e6e1eea-0d5c-47d5-ae36-545156b1c75c" />
 
 
 
@@ -97,11 +94,8 @@ AI 분석 (NLP + 이미지 인식)
 
 ## 9. ER 다이어그램
 
-```
-USERS -< ORDERS >- PRODUCTS
-USERS -< CART >- PRODUCTS
-PRODUCTS -< REVIEWS
-```
+<img width="809" height="533" alt="image" src="https://github.com/user-attachments/assets/c07cc8bd-074c-4c99-a0dd-dbfcaa5ec2e6" />
+
 
 ---
 
@@ -134,6 +128,7 @@ PRODUCTS -< REVIEWS
 
 ```
 ```
+
 
 
 

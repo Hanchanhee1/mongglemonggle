@@ -48,7 +48,10 @@ AIMAE/
     └── WEB-INF/
         └── web.xml
 
+```
+
 ---
+
 
 ## 3. 프로젝트 기간
 
@@ -199,6 +202,7 @@ AI 분석 (Google Vit Model + GPT4-o)
 
 ```
 ```
+
 
 
 

@@ -84,7 +84,7 @@ AIMAE/
 | ------ | ----------------------------- |
 | 언어     | [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)]() [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge\&logo=java\&logoColor=white)]()                  |
 | 프론트엔드  | [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)]() [![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)]() [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)]()         |
-| 백엔드    | JSP/Servlet, MyBatis, <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white">   |
+| 백엔드    | ![Servlet](https://img.shields.io/badge/Servlet-6DB33F?style=for-the-badge) ![MyBatis](https://img.shields.io/badge/MyBatis-1E90FF?style=for-the-badge) <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white">   |
 | 서버     | [![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge\&logo=apachetomcat\&logoColor=white)]()                |
 | 데이터베이스 | [![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge\&logo=oracle\&logoColor=white)]()                        |
 | AI     | ![Google ViT](https://img.shields.io/badge/Google_ViT-4285F4?style=for-the-badge) ![GPT-4o](https://img.shields.io/badge/GPT-4o-00A67E?style=for-the-badge)            |
@@ -202,6 +202,7 @@ AI 분석 (Google Vit Model + GPT4-o)
 
 ```
 ```
+
 
 
 

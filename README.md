@@ -66,16 +66,12 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
----
-
 ### 2) 필수 패키지 설치
 ```bash
 pip install -r requirements.txt
 ```
 
 👉 여기까지 하면 기본 실행 준비 완료!
-
----
 
 ### 3) 추가 리소스 다운로드 (필요 시)
 프로젝트 실행에는 모델 및 리소스 파일이 필요합니다.  
@@ -90,13 +86,12 @@ pip install -r requirements.txt
 - 📁 **상품 이미지**
   - `productImage` → `webapp/` 폴더에 넣기
 
----
-
 ✅ 모든 설정을 마치면 서버 실행 준비가 완료됩니다.
 ```bash
 python server.py
 ```
 
+---
 
 ## ⏳ 프로젝트 기간
 
@@ -247,6 +242,7 @@ AI 분석 (Google Vit Model + GPT4-o)
 
 ```
 ```
+
 
 
 

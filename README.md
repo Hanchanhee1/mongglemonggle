@@ -87,7 +87,7 @@ AIMAE/
 | 백엔드    | JSP/Servlet, MyBatis, <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white">   |
 | 서버     | [![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge\&logo=apachetomcat\&logoColor=white)]()                |
 | 데이터베이스 | [![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge\&logo=oracle\&logoColor=white)]()                        |
-| AI     | Google ViT, GPT-4o            |
+| AI     | ![Google ViT](https://img.shields.io/badge/Google_ViT-4285F4?style=for-the-badge) ![GPT-4o](https://img.shields.io/badge/GPT-4o-00A67E?style=for-the-badge)            |
 | 라이브러리  | bcrypt                        |
 | API    | Kakao 로그인, Naver 로그인, 아임포트 결제 |
 | 개발도구   | Eclipse, VSCode               |
@@ -202,6 +202,7 @@ AI 분석 (Google Vit Model + GPT4-o)
 
 ```
 ```
+
 
 
 

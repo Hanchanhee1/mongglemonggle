@@ -12,6 +12,126 @@
 
 ---
 
+## 📁 AIMAE 프로젝트 폴더 구조
+
+AIMAE/
+├── 📁 메인 백엔드
+│   ├── controller/
+│   │   ├── AimaeAuthCodeService.java
+│   │   ├── AimaeCheckEmailService.java
+│   │   ├── AimaeCompletCodeService.java
+│   │   ├── AimaeFindIdService.java
+│   │   ├── AimaeFindPwService.java
+│   │   ├── AimaeIdCheckService.java
+│   │   ├── AimaeJoinService.java
+│   │   ├── AimaeKakaoLoginService.java
+│   │   ├── AimaeLoginService.java
+│   │   ├── AimaeLogoutService.java
+│   │   ├── AimaeNaverLoginService.java
+│   │   ├── AimaeUnregisterService.java
+│   │   ├── AimaeUpdateService.java
+│   │   ├── CartService.java
+│   │   ├── ElectronicProductListService.java
+│   │   ├── FruitProductListService.java
+│   │   ├── MainController.java
+│   │   ├── PaymentComplete.java
+│   │   ├── PaymentCompleteService.java
+│   │   ├── ProductDeleteService.java
+│   │   ├── ProductDetailService.java
+│   │   ├── ProductListService.java
+│   │   ├── ProductRegistService.java
+│   │   ├── ProductUpdateService.java
+│   │   └── VegetableProductListService.java
+│   │
+│   ├── model/
+│   │   ├── AuthCodeGenerator.java
+│   │   ├── Cart.java
+│   │   ├── CartDAO.java
+│   │   ├── Photo.java
+│   │   ├── PhotoDAO.java
+│   │   ├── Product.java
+│   │   ├── ProductDAO.java
+│   │   ├── Product_Detail.java
+│   │   ├── TestModel.java
+│   │   ├── UserDAO.java
+│   │   └── UserInfo.java
+│   │
+│   ├── mapper/
+│   │   ├── 2.xml
+│   │   ├── CartMapper.xml
+│   │   ├── PhotoMapper.xml
+│   │   ├── ProductMapper.xml
+│   │   ├── TestClass.java
+│   │   └── UserMapper.xml
+│   │
+│   └── util/
+│       ├── mybatis-config.xml
+│       ├── OracleTest.java
+│       ├── SendMail.java
+│       └── SqlSessionManager.java
+│
+├── 📁 웹 리소스
+│   ├── css/
+│   │   ├── admin.css
+│   │   ├── cart.css
+│   │   ├── footer.css
+│   │   ├── header.css
+│   │   ├── index.css
+│   │   ├── login.css
+│   │   ├── myPage.css
+│   │   ├── orderAction.css
+│   │   ├── pay.css
+│   │   ├── product.css
+│   │   ├── productDetail.css
+│   │   └── recom.css
+│   │
+│   ├── images/
+│   │   ├── aa.png
+│   │   ├── favicon.ico
+│   │   ├── freedelivery.png
+│   │   ├── freedelivery2.png
+│   │   ├── freedelivery3.png
+│   │   ├── image.png
+│   │   ├── kakao.png
+│   │   └── PhotoshopPreview_Image.png
+│   │
+│   ├── js/
+│   │   ├── admin.js
+│   │   ├── index.js
+│   │   ├── index2.js
+│   │   ├── orderAction.js
+│   │   └── payment.js
+│   │
+│   └── jar/
+│       ├── activation-1.1.1.jar
+│       └── mail-1.4.7.jar
+│
+├── 📁 JSP 페이지
+│   ├── admin.jsp
+│   ├── cart.jsp
+│   ├── cart2.jsp
+│   ├── electronicProducts.jsp
+│   ├── findID.jsp
+│   ├── findPw.jsp
+│   ├── fruitProducts.jsp
+│   ├── join.jsp
+│   ├── login.jsp
+│   ├── mypage.jsp
+│   ├── orderAction.jsp
+│   ├── orderAction2.jsp
+│   ├── orderAction3.jsp
+│   ├── payment.jsp
+│   ├── productDetail.jsp
+│   ├── recom.jsp
+│   ├── recom3.jsp
+│   └── vegetableProducts.jsp
+│
+└── 📁 설정
+    └── WEB-INF/
+        └── web.xml
+
+---
+
 ## 3. 프로젝트 기간
 
 2025년 7월 28일 \~ 2025년 8월 28일 (1개월)
@@ -161,6 +281,7 @@ AI 분석 (Google Vit Model + GPT4-o)
 
 ```
 ```
+
 
 
 

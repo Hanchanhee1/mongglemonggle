@@ -88,9 +88,9 @@ AIMAE/
 | 서버     | [![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge\&logo=apachetomcat\&logoColor=white)]()                |
 | 데이터베이스 | [![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge\&logo=oracle\&logoColor=white)]()                        |
 | AI     | ![Google ViT](https://img.shields.io/badge/Google_ViT-4285F4?style=for-the-badge) ![GPT-4o](https://img.shields.io/badge/GPT-4o-00A67E?style=for-the-badge)            |
-| 라이브러리  | bcrypt                        |
-| API    | Kakao 로그인, Naver 로그인, 아임포트 결제 |
-| 개발도구   | Eclipse, VSCode               |
+| 라이브러리  | ![bcrypt](https://img.shields.io/badge/bcrypt-DAA520?style=for-the-badge)                        |
+| API    | ![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=for-the-badge&logo=kakaotalk&logoColor=black) ![Naver](https://img.shields.io/badge/Naver-03C75A?style=for-the-badge&logo=naver&logoColor=white) ![Iamport](https://img.shields.io/badge/Iamport-FF6A00?style=for-the-badge) |
+| 개발도구   | ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)               |
 | 협업     | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/2025-SMHRD-IS-CLOUD-3/mongglemonggle) [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge\&logo=figma\&logoColor=white)]()             |
 
 ---
@@ -202,6 +202,7 @@ AI 분석 (Google Vit Model + GPT4-o)
 
 ```
 ```
+
 
 
 

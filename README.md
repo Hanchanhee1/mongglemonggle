@@ -1,11 +1,11 @@
 # 🛍️ AIMAE 프로젝트 (팀명: 몽글몽글)
 
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)]()
-[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge\&logo=java\&logoColor=white)]()
-[![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)]()
-[![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)]()
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)]()
+
+
+
+
+
 [![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge\&logo=oracle\&logoColor=white)]()
 [![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge\&logo=apachetomcat\&logoColor=white)]()
 
@@ -57,8 +57,8 @@
 
 | 구분     | 기술                            |
 | ------ | ----------------------------- |
-| 언어     | Python, Java                  |
-| 프론트엔드  | HTML, CSS, JavaScript         |
+| 언어     | [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)]() [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge\&logo=java\&logoColor=white)]()                  |
+| 프론트엔드  | [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)]() [![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)]() [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)]()         |
 | 백엔드    | JSP/Servlet, MyBatis, Flask   |
 | 서버     | Apache Tomcat                 |
 | 데이터베이스 | Oracle                        |
@@ -153,4 +153,5 @@ PRODUCTS -< REVIEWS
 
 ```
 ```
+
 

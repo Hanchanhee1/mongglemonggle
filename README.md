@@ -52,6 +52,51 @@ AIMAE/
 
 ---
 
+## 🚀 설치 및 실행 방법
+
+### 1) 가상환경 생성 및 실행
+```bash
+# 가상환경 만들기
+python -m venv .venv
+
+# 윈도우
+.venv\Scripts\activate  
+
+# 맥/리눅스
+source .venv/bin/activate
+```
+
+---
+
+### 2) 필수 패키지 설치
+```bash
+pip install -r requirements.txt
+```
+
+👉 여기까지 하면 기본 실행 준비 완료!
+
+---
+
+### 3) 추가 리소스 다운로드 (필요 시)
+프로젝트 실행에는 모델 및 리소스 파일이 필요합니다.  
+깃허브 **Releases** 탭에서 아래 파일들을 다운로드 후 각 폴더에 배치하세요.
+
+- 📁 **모델 파일**
+  - `vit_20250818_143345` → `gpt4o2/` 폴더에 넣기
+
+- 📁 **프로젝트 사진**
+  - `projectPhoto` → `webapp/` 폴더에 넣기
+
+- 📁 **상품 이미지**
+  - `productImage` → `webapp/` 폴더에 넣기
+
+---
+
+✅ 모든 설정을 마치면 서버 실행 준비가 완료됩니다.
+```bash
+python server.py
+```
+
 
 ## ⏳ 프로젝트 기간
 
@@ -202,6 +247,7 @@ AI 분석 (Google Vit Model + GPT4-o)
 
 ```
 ```
+
 
 
 

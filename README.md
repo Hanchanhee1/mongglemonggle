@@ -101,10 +101,24 @@ AI 분석 (Google Vit Model + GPT4-o)
 
 ## 10. 화면 구성
 
-* **메인 페이지**: 검색 및 이미지 업로드
-* **추천 결과 페이지**: 제품 리스트 + 비교표
-* **상세 페이지**: 제품 상세 정보 + 구매 버튼
-* **마이페이지**: 회원 정보, 주문 내역, 장바구니 관리
+* **메인 페이지**:
+  <img width="1892" height="945" alt="image" src="https://github.com/user-attachments/assets/2521436e-5f03-43ae-b593-2f770bbf62c9" />
+<img width="1918" height="952" alt="image" src="https://github.com/user-attachments/assets/7b8b2ddb-0acf-4c0b-9edd-ed713925354c" />
+<img width="1920" height="728" alt="image" src="https://github.com/user-attachments/assets/7fcaaa73-feb8-462f-9162-b65b22c66f5b" />
+
+
+* **추천 결과 페이지**:
+  <img width="1920" height="893" alt="image" src="https://github.com/user-attachments/assets/474e0b54-54ca-4b4f-8772-72b47dc05851" />
+<img width="1919" height="950" alt="image" src="https://github.com/user-attachments/assets/e25ed4c5-8f94-4dfd-8724-42abf83f1298" />
+
+* **상세 페이지**:
+  <img width="1916" height="945" alt="image" src="https://github.com/user-attachments/assets/ea21a2d0-25ae-476f-bdd5-0004a25555dc" />
+<img width="1916" height="906" alt="image" src="https://github.com/user-attachments/assets/44522117-8b14-4daf-a8dd-3cb429d245e7" />
+<img width="1915" height="780" alt="image" src="https://github.com/user-attachments/assets/566dc229-f5ef-400c-b872-d81a94eba50a" />
+
+* **마이페이지**:
+  <img width="1350" height="917" alt="image" src="https://github.com/user-attachments/assets/7d382fb0-dc2e-4913-a2f8-aa368d3af44c" />
+
 
 ---
 
@@ -147,6 +161,7 @@ AI 분석 (Google Vit Model + GPT4-o)
 
 ```
 ```
+
 
 
 

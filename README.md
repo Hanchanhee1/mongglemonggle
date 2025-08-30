@@ -66,12 +66,9 @@
 ---
 
 ## 7. 유스케이스
+<img width="1101" height="624" alt="image" src="https://github.com/user-attachments/assets/a9c994e7-fad1-4083-935b-e3eb71147db2" />
 
-1. 사용자가 텍스트 또는 이미지 입력
-2. AI가 입력 데이터를 분석
-3. 조건 기반 맞춤 제품 추천
-4. 추천 제품 비교 및 요약
-5. 장바구니 담기 및 결제 진행
+
 
 ---
 
@@ -137,6 +134,7 @@ PRODUCTS -< REVIEWS
 
 ```
 ```
+
 
 
 

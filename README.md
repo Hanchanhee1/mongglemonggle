@@ -1,84 +1,155 @@
-# 🛍️ AIMAE: 고민 많은 당신을 위한 AI 쇼핑 메이트
+# 🛍️ AIMAE 프로젝트 (팀명: 몽글몽글)
 
-> 멀티모달 입력(텍스트 + 이미지)을 활용한 개인 맞춤형 제품 추천 및 비교 서비스
-
----
-
-## 📌 프로젝트 소개
-
-**AIMAE**는 사용자의 텍스트 질문이나 제품 사진을 바탕으로, 상황에 맞는 제품을 추천하고 비교 분석해주는 AI 쇼핑 어시스턴트입니다.
-
-> "복잡한 쇼핑 고민, 한 줄 질문이나 사진 한 장으로 해결하세요!"
-
----
-
-## 🧠 핵심 기능
-
-### 🔍 입력 처리
-- 자연어 텍스트 입력 (예: "잇몸에 좋은 치약 추천해줘")
-- 이미지 입력 (예: 제품 사진 업로드)
-- 텍스트 + 이미지 동시 입력
-
-### 🧠 AI 분석
-- NLP 기반 조건 추출 (KoNLPy + GPT)
-- 이미지 분류 및 제품 식별 (Teachable Machine / Roboflow)
-- 조건 기반 매칭 및 유사 제품 검색
-
-### 🛒 추천 및 비교
-- 제품 추천 리스트 생성
-- 가격/기능/리뷰 등 조건별 비교표 제공
-- 요약 및 의사결정 가이드 제시
-
-### 🌐 웹 서비스
-- React 기반 직관적인 UI
-- 장바구니 기능 (추가, 삭제, 수량 변경 등)
-- 회원가입, 로그인, 마이페이지 기능
-- 결제 기능 연동 (아임포트 API)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/2025-SMHRD-IS-CLOUD-3/mongglemonggle)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)]()
+[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge\&logo=java\&logoColor=white)]()
+[![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)]()
+[![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)]()
+[![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge\&logo=oracle\&logoColor=white)]()
+[![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge\&logo=apachetomcat\&logoColor=white)]()
+[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge\&logo=figma\&logoColor=white)]()
 
 ---
 
-## ⚙️ 기술 스택
+## 1. 프로젝트명 (팀명)
 
-| 분야 | 기술 |
-|------|------|
-| 프론트엔드 | <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> |
-| 디자인 | <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white"/> |
-| 백엔드 / 언어 | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/>  JSP/Servlet |
-| 서버 | <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white"> |
-| 데이터베이스 | <img src="https://img.shields.io/badge/Oracle 11g-F80000?style=for-the-badge&logo=Oracle&logoColor=white"/> |
-| AI | OpenAI GPT API, KoNLPy, Teachable Machine |
-| 결제 | 아임포트 API |
-| 협업 | <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"/> |
-| 개발도구 | <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=Eclipse&logoColor=white"/> <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white"/> |
+**프로젝트명**: AIMAE
+**팀명**: 몽글몽글
 
 ---
 
-## 💡 기대효과 및 활용 방안
+## 2. 서비스 소개
 
-- 소비자의 제품 선택 피로도 감소
-- 쇼핑몰의 체류 시간 및 구매 전환율 상승
-- 이커머스, 건강기능식품, 뷰티 등 다양한 분야로 확장 가능
-- B2B 기업 대상 추천 솔루션으로 활용 가능
+멀티모달 입력(텍스트 + 이미지)을 활용한 개인 맞춤형 제품 추천 및 비교 웹 서비스입니다.
+사용자가 텍스트 질문이나 제품 사진을 제공하면 AI가 상황에 맞는 제품을 추천하고 비교 분석합니다.
+
+> "복잡한 쇼핑 고민, 텍스트 한 줄이나 사진 한 장으로 해결하세요!"
+
+---
+
+## 3. 프로젝트 기간
+
+2025년 7월 28일 \~ 2025년 8월 28일 (1개월)
 
 ---
 
+## 4. 주요 기능
 
-## 👥 팀 소개 (몽글몽글)
+* **멀티모달 입력 기반 제품 추천**
 
-| 이름 | 역할 및 담당 |
-|------|---------------|
-| 한찬희 (팀장) | 총괄, PM, 기획/DB/설계/문서, UI/UX, FRONT-END, BACK-END, PPT/발표 |
-| 임진서 | 기획/설계/문서, BACK-END, AI 모델 파인튜닝/학습, API 연동 (OpenAI, Iamport), 학습용 데이터 수집, PPT |
-| 오정관 | DB 설계/구축, BACK-END, 장바구니 기능 구현 (구매, 등록, 수정), 자료 수집 |
-| 양용석 | BACK-END, 회원 기능 구현 (회원 가입, 정보 변경, 삭제·수정), 자료 수집 |
+  * 텍스트, 이미지, 혹은 동시 입력 가능
+* **한눈에 보는 제품 정보**
 
+  * 가격, 상세 내용, 리뷰 비교표 제공
+* **간편한 구매**
 
-## 📆 개발 일정
+  * 장바구니 기능: 추가, 삭제, 수량 변경
+  * 클릭 시 바로 결제 연동
+* **SNS 로그인 및 결제 연동**
 
-| 기간 | 주요 내용 |
-|------|----------|
-| 7/21~8/13 | 기획, 설계, 와이어프레임, 데이터 설계 |
-| 8/13~8/27 | AI 연동, 웹 구현, 통합 테스트 |
-| 8/28 | 최종 발표 및 시연 |
+  * 카카오/네이버 로그인
+  * 아임포트 결제 API
 
 ---
+
+## 5. 기술 스택
+
+| 구분     | 기술                            |
+| ------ | ----------------------------- |
+| 언어     | Python, Java                  |
+| 프론트엔드  | HTML, CSS, JavaScript         |
+| 백엔드    | JSP/Servlet, MyBatis, Flask   |
+| 서버     | Apache Tomcat                 |
+| 데이터베이스 | Oracle                        |
+| AI     | Google ViT, GPT-4o            |
+| 라이브러리  | bcrypt                        |
+| API    | Kakao 로그인, Naver 로그인, 아임포트 결제 |
+| 개발도구   | Eclipse, VSCode               |
+| 협업     | Git/GitHub, Figma             |
+
+---
+
+## 6. 시스템 아키텍처
+
+```
+[사용자 입력] --> [웹 UI / React] --> [백엔드: JSP/Servlet, Flask]
+           --> [AI 분석: Google ViT, GPT-4o]
+           --> [DB: Oracle]
+           --> [결과 반환 / 장바구니 / 결제 API 연동]
+```
+
+---
+
+## 7. 유스케이스
+
+1. 사용자가 텍스트 또는 이미지 입력
+2. AI가 입력 데이터를 분석
+3. 조건 기반 맞춤 제품 추천
+4. 추천 제품 비교 및 요약
+5. 장바구니 담기 및 결제 진행
+
+---
+
+## 8. 서비스 흐름도
+
+```
+사용자
+  │
+  ▼
+텍스트/이미지 입력
+  │
+  ▼
+AI 분석 (NLP + 이미지 인식)
+  │
+  ▼
+추천 제품 리스트 + 비교표
+  │
+  ▼
+장바구니 담기 / 결제 진행
+  │
+  ▼
+주문 완료 / 마이페이지 업데이트
+```
+
+---
+
+## 9. ER 다이어그램
+
+```
+USERS -< ORDERS >- PRODUCTS
+USERS -< CART >- PRODUCTS
+PRODUCTS -< REVIEWS
+```
+
+---
+
+## 10. 화면 구성
+
+* **메인 페이지**: 검색 및 이미지 업로드
+* **추천 결과 페이지**: 제품 리스트 + 비교표
+* **상세 페이지**: 제품 상세 정보 + 구매 버튼
+* **마이페이지**: 회원 정보, 주문 내역, 장바구니 관리
+
+---
+
+## 11. 팀원 역할
+
+| 이름       | 역할 및 담당                                                         |
+| -------- | --------------------------------------------------------------- |
+| 한찬희 (팀장) | 총괄, PM, 기획/DB/설계/문서, UI/UX, 프론트엔드·백엔드 개발, PPT/발표                |
+| 임진서      | 기획/설계/문서, 백엔드, AI 모델 파인튜닝, API 연동(OpenAI, Iamport), 데이터 수집, PPT |
+| 오정관      | DB 설계/구축, 백엔드, 장바구니 기능 구현, 자료 수집                                |
+| 양용석      | 백엔드, 회원 기능 구현(가입, 정보 변경, 삭제/수정), 자료 수집                          |
+
+---
+
+## 12. 트러블슈팅
+
+* **AI 모델 성능 문제**: 입력 이미지와 텍스트 불일치 → 데이터셋 재수집 및 모델 재학습
+* **결제 연동 오류**: 아임포트 API 테스트 모드에서 CORS 오류 → 서버측 프록시 설정으로 해결
+* **브라우저 호환성 문제**: 일부 CSS 반응형 깨짐 → 미디어 쿼리 추가 및 테스트
+* **DB 외래키 제약조건 문제**: 회원 삭제 시 CART 테이블 레코드 미삭제 → `ON DELETE CASCADE` 적용
+
+```
+```
